@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #eef2f9;
+  --color-navy-100: #d5deee;
+  --color-navy-600: #1e3a6e;
+  --color-navy-700: #172e58;
+  --color-navy-800: #112344;
+  --color-navy-900: #0b1a33;
+}
+
+body {
+  @apply bg-slate-100 text-slate-800 antialiased;
+  font-family: "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+}
